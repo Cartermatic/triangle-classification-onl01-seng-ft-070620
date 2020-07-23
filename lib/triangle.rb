@@ -12,5 +12,5 @@ class Triangle
     if side1 == side2 && side1 == side3
       "equilateral"to_sym
   
-  
+end
 end

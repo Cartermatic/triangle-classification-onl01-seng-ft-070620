@@ -20,7 +20,7 @@ class Triangle
           raise TriangleError
         rescue TriangleError
       end
-      elsif self.side1 == 0 && self.side2 =0 && self.side3 == 0  
+      elsif self.side1 == 0 && self.side2 == 0 && self.side3 == 0  
         begin
           raise TriangleError
         rescue TriangleError

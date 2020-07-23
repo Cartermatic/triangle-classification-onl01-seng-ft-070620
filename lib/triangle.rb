@@ -15,9 +15,17 @@ class Triangle
       "isosceles".to_sym
       elsif self.side1 != self.side2 && self.side1 != self.side3
       "scalene".to_sym
-      
+    end
   end
-end
+      
+
+
+
+  class TriangleError < StandardError
+    
+  end
+
+
 end
 
 

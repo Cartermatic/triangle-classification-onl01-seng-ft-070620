@@ -18,12 +18,13 @@ class Triangle
       elsif self.side1 < 0 || self.side2 < 0 || self.side3 < 0
         begin
           raise TriangleError
-        rescue TriangleError 
+        rescue TriangleError => error
+          puts error.message
       end
       elsif self.side1 == 0 && self.side2 == 0 && self.side3 == 0  
         begin
           raise TriangleError
-        rescue TriangleError
+        rescue TriangleError 
       end
         elsif self.side1 + self.side2 < self.side3 || self.side2 + self.side3 < self.side1 || self.side1 + self.side3 < self.side2
         begin

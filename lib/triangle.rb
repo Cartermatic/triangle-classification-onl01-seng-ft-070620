@@ -25,12 +25,13 @@ class Triangle
         begin
           raise TriangleError
         rescue TriangleError => error
-        puts error.message
+          puts error.message
       end
         elsif self.side1 + self.side2 < self.side3 || self.side2 + self.side3 < self.side1 || self.side1 + self.side3 < self.side2
         begin
-          raise TriangleError
-          rescue TriangleError 
+            raise TriangleError
+          rescue TriangleError => error
+            puts error.message
         end
     end
   end

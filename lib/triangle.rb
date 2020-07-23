@@ -24,10 +24,12 @@ class Triangle
         begin
           raise TriangleError
         rescue TriangleError
+      end
         elsif self.side1 + self.side2 < self.side3 || self.side2 + self.side3 < self.side1 || self.side1 + self.side3 < self.side2
         begin
           raise TriangleError
           rescue TriangleError
+        end
     end
   end
       

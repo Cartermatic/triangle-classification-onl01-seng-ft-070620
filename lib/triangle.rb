@@ -11,7 +11,10 @@ class Triangle
   def kind
     if self.side1 == self.side2 && self.side1 == self.side3
       "equilateral".to_sym
-      elsif self.side1 == self.side2 || self.side1 == self.side
+      elsif self.side1 == self.side2 || self.side1 == self.side3 || self.side2 == self.side3
+      "isosceles".to_sym
+      elsif self.side1 != self.side2 && self.side1 != self.side3
+      "scalene".to_sym
       
   end
 end

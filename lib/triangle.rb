@@ -8,6 +8,13 @@ class Triangle
     @side3 = side3
   end
   
+  
+  
+  def kind
+    if 
+  
+  
+  
   def kind
     if self.side1 == self.side2 && self.side1 == self.side3
         "equilateral".to_sym

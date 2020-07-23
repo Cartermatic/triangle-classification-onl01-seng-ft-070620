@@ -21,7 +21,7 @@ class Triangle
           raise TriangleError
         elsif self.side1 + self.side2 < self.side3 || self.side2 + self.side3 < self.side1 || self.side1 + self.side3 < self.side2
             raise TriangleError
-        end
+      
     end
   end
       
